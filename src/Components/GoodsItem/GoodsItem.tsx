@@ -5,9 +5,5 @@ type Props = {
 };
 
 export const GoodsItem: React.FC<Props> = ({ goodsItem }) => {
-  return (
-    <li>
-      {goodsItem}
-    </li>
-  )
-}
+  return <li>{goodsItem}</li>;
+};
